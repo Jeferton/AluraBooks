@@ -87,15 +87,46 @@
     }
 
     .swiper-button-prev,
-.swiper-button-next {
-    display: block;
-    top: 60%;
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
 }
 
-.card {
-    width: 40%;
-    margin: 2em auto;
-}
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
 
+    .swiper {
+        width: 50%;
+    }
 
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .descrição {
+        margin-right: 2em;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
 }
